@@ -1,0 +1,307 @@
+  .ban {
+      background-color: rgb(238, 152, 22);
+      margin-left: -8px;
+      margin-right: -8px;
+      margin-top: -8px;
+      margin-bottom: -8px;
+      padding-bottom: 20px;
+      border-bottom: 20px black dashed;
+     
+
+
+  }
+
+  .img1 {
+      width: 50px;
+
+  }
+
+  .int{
+
+      background-color:rgb(99, 145, 150);
+      color: white;
+      padding-bottom: 20%;
+      margin-left: -8px;
+      margin-right: -8px;
+      margin-top: -60px;
+    
+
+  }
+ 
+
+  .int:hover {
+      background-image: url(assets/pict\ 1.0.webp);
+      color:transparent;
+      opacity: 0.8;
+      background-size:cover;
+      
+      -ms-transition: 1s ease-in-out;
+      transition: 1s ease-in-out;
+      animation: jijk 8s ease-in-out;
+      border-bottom: 10px yellow  double;
+    
+  }
+  @keyframes jijk{
+    0%{
+      opacity: 1;
+    
+    }
+    50%{
+    
+    
+     background-image: url(assets//manila\ pict.jpg);
+     
+    }
+    
+    100%{
+        
+      background-image: url(assets//pict\ jkt.jpg);
+    }
+    }
+  .prob{
+    transition: 1s ease-in-out ;
+
+    font-size: 60px;
+   padding-top: 15%;
+    text-align: center;
+  }
+  .contain{
+    background-color: rgb(182, 213, 58);
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display:flex;
+  }
+
+  .judul {
+      position: absolute;
+      margin-top: -40px;
+      margin-left: 60px;
+  }
+  .solu{
+    width: 600px;
+    background-color: rgb(185, 48, 48);
+    word-wrap: break-word;
+    padding-right: 170px;
+    border-right: 3px black solid;
+    
+   
+  }
+  
+  .so{
+    animation-name:sol;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    border-bottom: 10px double white;
+    display: inline-block;
+    margin-left: 15px;
+  }
+  .isi{
+    animation-name: sot;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    text-align:justify;
+    margin-left: 100px;
+    
+  }
+  
+  .secJ{
+    margin-left: 20px;
+    animation-name:son;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    border-bottom: 10px double white;
+    display: inline-block;
+  }
+  .contain:hover .so .secJ{
+    animation-name: sol;
+    animation-duration: 5s;
+  }
+  @keyframes sol{
+    20%{
+        margin-left: 100px;
+        color:transparent;
+        border-bottom: transparent;
+
+        
+        
+    }
+    70%{
+        margin-left: 10px;
+        
+    }
+        
+    100%{
+        margin-left: 20px;
+    }
+  }
+  .contain:hover  .isi{
+    animation-name: sot;
+    animation-duration: 5s;
+  }
+  @keyframes sot{
+    20%{
+        margin-left: 100px;
+        color:transparent;
+        border-bottom: transparent;
+
+    }
+    70%{
+        margin-left: 40px;
+        
+    }
+        
+    100%{
+        margin-left: 100px;
+    }
+  }
+  .contain:hover .secJ{
+    animation-name: son;
+    animation-duration: 5s;
+  }
+  @keyframes son{
+    20%{
+        margin-left: 100px;
+        color:transparent;
+        border-bottom: transparent;
+        
+        
+    }
+    70%{
+        margin-left: 10px;
+    }
+        
+    100%{
+        margin-left: 20px;
+    }
+  }
+  .desc1{
+    text-align: center;
+   margin-left: 5%;
+ 
+    display: flex;
+  }
+
+  .pro{
+    background-color: burlywood;
+    margin-right: -8px;
+    margin-left:-8px;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    
+    
+    
+
+  }
+  .deco{
+    background-color:rgb(238, 152, 22);
+    padding-bottom: 10%;
+    padding-right:30% ;
+    margin-left: -80px;
+    margin-right: 20px;
+    
+   
+  }
+  .desc1:hover .deco{
+    animation-name: dest;
+    animation-duration: 4s;
+
+  }
+  @keyframes dest
+  {
+    0%{
+        margin-left: -400px;
+    }
+    50%{
+        margin-right: 40px;
+    }
+    100%{
+        margin-right: 10px;
+    }
+}
+  .deco1{
+    background-color:rgb(238, 152, 22);
+    padding-bottom: 10%;
+    padding-right:35% ;
+   margin-right: -60px;
+   
+  }
+  .ni{
+    width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align:lef;
+    word-wrap: break-word;
+    
+
+    
+  }
+  .foot{
+    background-color:rgb(174, 166, 166);
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-bottom: -8px;
+    padding-bottom:5%;
+    padding-top: 30px;
+  }
+  .ins{
+    width:30px;
+  }
+  .twit{
+    width:30px;
+    margin-left:20px;
+  }
+  .thank{
+    text-align:center;
+  }
+  .icons{
+    text-align:center;
+  }
+  .wa{
+    width:30px;
+    margin-left:20px;
+  }
+  .nav{
+    margin-left: 70%;
+  }
+  a{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+.phone1,.phone2{
+  width: 250px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+#phones{
+  text-align: center;
+
+}
+.ekospati{
+
+  width: 300px;
+  margin-left: 100px;
+  padding-top: 100px;
+  text-align: center;
+ 
+}
+
+.Ekospati{
+  width: 300px;
+  padding-right: 100px;
+  padding-top: 60px;
+  text-align: center;
+
+}
+
+
+
+
+
+ 
